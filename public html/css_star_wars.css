@@ -1,11 +1,14 @@
 /* Background color for page */
 body {
-    background-color: #ece3d7;
+    background-color: #a3a375;
 }
 
-/* h1 Heading text style */
-h1  {
-    color: gray;
+h1 {
+  color: black;
+  font-family: Georgia, serif;
+  font-size: 48px;
+  height: 20px;
+  padding: 45px;
 }
 
 /* --- Nav Bar --- */
@@ -14,7 +17,7 @@ nav ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #404040;
   font-family: arial,sans-serif;
 }
 
@@ -33,5 +36,5 @@ nav li a {
 /* Change the link color on hover */
 nav li a:hover {
   /* This is a three digit code. Same as #111111 */
-  background-color: #111;
+  background-color: #666633;
 }
