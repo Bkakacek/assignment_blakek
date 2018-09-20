@@ -1,14 +1,26 @@
 /* Background color for page */
 body {
     background-color: #a3a375;
+    margin: 10px;
 }
 
-h1 {
-  color: black;
+footer  {
+    margin-top: 100px;
+    padding: 0px;
+}
+
+h1  {
+  color: #990000;
+  text-align: center;
   font-family: Georgia, serif;
   font-size: 48px;
   height: 20px;
   padding: 45px;
+}
+
+p   {
+    margin-right: 75px;
+    margin-left: 75px
 }
 
 /* --- Nav Bar --- */
@@ -29,7 +41,7 @@ nav li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 15px 20px;
   text-decoration: none;
 }
 
