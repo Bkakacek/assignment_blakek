@@ -1,0 +1,40 @@
+body{
+    background: #696969;
+    }
+        p{
+            font-size: 14px
+        }
+        
+        h2{
+            font-style: initial
+          }
+        
+       #summary{
+            font-size: 14px 
+            }
+            
+       .odd{
+            text-align: left
+            }
+       
+       nav{
+           list-style-type: none;
+           margin: 0;
+           padding: 0;
+           overflow: hidden;
+           background-color: #333;
+           }
+           
+       nav li {float: left;}
+
+       nav li a {
+       display: block;
+       color: #ff0000;
+       padding: 8px 16px;
+       text-decoration: none;
+       }
+       
+       nav li a:hover:not(.active) {background-color: #f8f8ff;}
+       
+       h1,h2,h3 {border-style:solid}
+       
