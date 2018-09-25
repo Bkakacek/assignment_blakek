@@ -18,9 +18,42 @@ h1  {
   padding: 45px;
 }
 
+article {
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+  font-size: 40px;
+  text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
 p   {
     margin-right: 75px;
     margin-left: 75px
+}
+
+#introduction {
+    margin-right: 75px;
+    margin-left: 75px;
+    font-size: 18px;
+    color: black;
+}
+
+.paragraph1 {
+    color: black;
+}
+
+.paragraph2 {
+    color: brown;
 }
 
 /* --- Nav Bar --- */
