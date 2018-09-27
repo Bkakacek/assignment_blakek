@@ -35,27 +35,27 @@
 
 	        <ul class="navbar-nav mr-auto">
 	          <li class="nav-item">
-	            <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+	            <a class="btn btn-primary disabled" href="index.html" role="button" aria-disabled="true">Home<span class="sr-only">(current)</span></a>
 	          </li>
 
 	          <li class="nav-item">
-	            <a class="nav-link" href="firstorder.html">First Order</a>
+	            <a class="btn btn-primary" href="firstorder.html" role="button">First Order</a>
 	          </li>
 
 	          <li class="nav-item">
-	            <a class="nav-link" href="pirates.html">Pirates</a>
+	            <a class="btn btn-primary" href="pirates.html" role="button">Pirates</a>
 	          </li>
 
 	          <li class="nav-item">
-	            <a class="nav-link" href="resistance.html">Resistance</a>
+	            <a class="btn btn-primary" href="resistance.html" role="button">Resistance</a>
 	          </li>
 
 	          <li class="nav-item">
-	            <a class="nav-link" href="prora_9.html">The Planet</a>
+	            <a class="btn btn-primary" href="prora_9.html" role="button">The Planet</a>
 	          </li>
 
 	          <li class="nav-item">
-	            <a class="nav-link" href="authors.html">Authors</a>
+	            <a class="btn btn-primary" href="authors.html" role="button">Authors</a>
 	          </li>          
 
 	        </ul>
@@ -70,24 +70,47 @@
 
 	</header>
 
-
 	<div class="container">
 
-		<h1>Welcome to the Campaign</h1>
+		<div class="jumbotron">
+		  <h1 class="display-4">Welcome to the Campaign!</h1>
+		  <p class="lead">Welcome to the Prora 9 campagin! Where you the GM (Game Master) and players can embark on a exciting adventure to a large planet
+			to fight over a clone wars era asset!.</p>
+		  <hr class="my-4">
+		  <p>This campaign is supposed to be ran along side any Star Wars pen and paper role playing games and specifically in the current established
+			Star Wars lore after The Last Jedi. Expect fights between a different Resistence group, Pirates, and the might of The First Order.</p>
+		</div>
 
-		<p>Hello! Welcome to the Prora 9 campagin! Where you the GM (Game Master) and players can embark on a exciting adventure to a large planet
-		to fight over a clone wars era asset!</p>
 
-		<p>This campaign is supposed to be ran along side any Star Wars pen and paper role playing games and specifically in the current established
-		Star Wars lore after The Last Jedi. Expect fights between a different Resistence group, Pirates, and the might of The First Order.</p>
+		<div class="alert alert-primary" role="alert">
+			Sign in below to enter the campaign!
+		</div>
+
+
+		<form>
+		  <div class="form-group">
+		    <label for="exampleInputEmail1">Email address</label>
+		    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+		    <small id="emailHelp" class="form-text text-muted">Your email is safe with us.</small>
+		  </div>
+		  <div class="form-group">
+		    <label for="exampleInputPassword1">Password</label>
+		    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+		  </div>
+		  <div class="form-group form-check">
+		    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+		    <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+		  </div>
+		  <button type="submit" class="btn btn-primary">Submit</button>
+		</form>
+
+
+	    <footer>
+	        <a href="authors.html">About Us</a>
+	        <p>Copyright &copy; Blake and JJ 2018</p>
+	    </footer>
 
 	</div>
-
-<footer>
-
-	<a href="authors.html">About Us</a>
-
-</footer>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
